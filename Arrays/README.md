@@ -48,20 +48,20 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 
 ### Logic
-Initialize 'Current sum' and 'Maximum sum' with array first element
-Traverse the array
-Decide whether the current element is extent of existing element or start a new array from current element 
-Update 'Current sum' with maximum value
-Update 'Maximum sum' by comparing it with 'Current sum'
-Return Maximum sum as final answer
+* Initialize 'Current sum' and 'Maximum sum' with array first element
+* Traverse the array
+* Decide whether the current element is extent of existing element or start a new array from current element 
+* Update 'Current sum' with maximum value
+* Update 'Maximum sum' by comparing it with 'Current sum'
+* Return Maximum sum as final answer
 
 ### Example
 
-**Input:**
-```text
+Input:
+```
 Array = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 ```
-**Output**
+Output:
 ```
 6
 ```
