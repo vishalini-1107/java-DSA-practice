@@ -1,11 +1,12 @@
-## Problems
+### Problems
 
 # Problem 1 - Two Sum 
 
-Problem : find the index of two element whose sum is equal to the target
-Approach: HashMap
-Time Complexity: O(n)
-Space Complexity: O(n)
+# Problem Statement
+  find the index of two element whose sum is equal to the target
+**Approach: ** HashMap
+**Time Complexity:** O(n)
+**Space Complexity:** O(n)
 
 # Logic
 * Traversal the  array
@@ -38,4 +39,8 @@ Output
 ```
 -1 -1
 ```
+# Problem 2 - Maximum Subarray Sum
+# Problem Statement
+Find the maximum sum of a contiguous subarray in a given integer array
+
 
