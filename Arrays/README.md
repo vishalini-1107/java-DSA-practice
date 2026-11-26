@@ -66,8 +66,8 @@ Output:
 6
 ```
 
-## Problem -3
-### Problem Statement
+## Problem 3 - Find Maximum Area
+### Problem Statement 
 Find two lines that together with the x-axis form a container that holds the maximum amount of water.
 * Approach: Two Pointer Technique
 * Time Complexity :O(n)
@@ -90,3 +90,28 @@ Output:
 ```
 49
 ```
+ ## Problem 4 - Find Pivot Index
+ ### Problem Statement 
+ Find an index where the sum of elements on the left equals the sum of elements on the right.
+
+ * Approach : "Prefix Sum"
+ * Time Complexity : O(n)
+ * Space Complexity : O(1)
+
+### Logic 
+* Initialize left and right variable
+* Calculate the total sum of the array
+* Calculate right using " total_sum - left_sum -current value"
+* Compare left and right value
+* Return Pivot index if it is equal , else return '-1' 
+
+### Example
+Input:
+```
+Array=[1, 7, 3, 6, 5, 6]
+```
+Output:
+```
+3
+```
+ 
